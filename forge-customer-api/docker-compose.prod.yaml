@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  forge-api:
+    environment:
+      FLASK_ENV: production
+      DB_USER: forge-api
+      DB_NAME: forge_api_prod
+      DB_PORT: 3306
+      DB_URL: redapt-api-prod.cfmorrjwa4k3.us-west-2.rds.amazonaws.com
+      DB_PASS: ${DB_PASS}
